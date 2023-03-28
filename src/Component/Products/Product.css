@@ -1,0 +1,80 @@
+.products{
+    margin: 20px auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #2C3333;
+    border-radius: 5px;
+}
+
+.card{
+    width: 300px;
+    height: 400px;
+    border: 1px solid black;
+    border-radius: 5px;
+    overflow: hidden;
+    padding: 10px;
+    margin: 40px 20px;
+    /* {background-color: #413C69;} */
+}
+
+.colorBack{
+    background-color: dimgray;
+    font-size: 22px;
+    border-radius: 12px;
+}
+
+.child {
+    display: inline-block;
+    padding: 1rem 1.8rem;
+    vertical-align: middle;
+  }
+
+.product-image{
+    text-align: center;
+    width: 100%;
+    max-width: 200px;
+    min-height: 200px;
+    display: block;
+    object-fit: cover;
+    margin-left: 35px;
+}
+
+.product-name{
+    text-transform: uppercase;
+    margin: 20px 0px 0px 15px;
+    text-align: center;  
+}
+
+.product-price{
+    margin: 10px 0px 0px 8px;
+    padding-bottom: 20px;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: bold; 
+    text-align: center; 
+}
+
+.product-add-button{
+    font-weight: 700;
+    font-size: 18px;
+    border-radius: 20px;
+    border: 100px;
+    outline: none;
+    background-color: black;
+    color: white;
+    width: 110%;
+    height: 40px;
+    display: block;
+    cursor: pointer;
+    text-transform: uppercase;
+    margin-left: 20px;
+    margin-right: 0px;
+}
+
+.product-add-button:hover {background-color: #3e8e41}
+
+.product-add-button:active{
+    transform: translate(7px);
+}
